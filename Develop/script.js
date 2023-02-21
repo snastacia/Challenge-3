@@ -2,7 +2,8 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-var passwordLength = Number(prompt("How many characters would you like your password to contain?"));
+var passwordLength = Number(prompt("How many characters would you like your password to contain? Reminder: password length should be between 8 and 128 characters!"));
+var len
 var charLower = confirm("Click OK to confirm including lowercase characters.");
 var charUpper = confirm("Click OK to confirm including uppercase characters.");
 var charNumeric = confirm("Click OK to confirm including numeric characters.");
